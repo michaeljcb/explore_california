@@ -1,0 +1,11 @@
+# Comment
+tempfile.txt
+.DS_Store # That's a file that shows up on Macintosh, that's something that the operating system uses.
+*.zip
+log/*.log
+log/*.log.[0-9]   # If we use log rotate on our log files it's going to append a number at the end
+assets/photoshop/
+assets/videos/
+!assets/videos/tour_*.mp4
+
+# question: would log/archive/access.log be ignored? No.
