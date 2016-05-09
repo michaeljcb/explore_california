@@ -1,5 +1,6 @@
 # Comment
 tempfile.txt
+tempfile2.txt
 .DS_Store # That's a file that shows up on Macintosh, that's something that the operating system uses.
 *.zip
 log/*.log
